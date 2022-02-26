@@ -219,7 +219,7 @@ fuelBar.depth+=2
   
 car.collide(inv_ground)
 car.setCollider("rectangle",0,0,car.width,car.height) 
-  car.debug  = true
+  car.debug  = false
   
  drawSprites();
 }
